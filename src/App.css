@@ -66,15 +66,18 @@ body {
   font-size: .75em;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 15.8em;
+}
+
 button {
   background-color: var(--accent-color);
   border-radius: 50%;
   border: none;
   padding: 1.2em;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 19.1em;
 }
 
 button img {

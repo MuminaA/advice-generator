@@ -29,9 +29,12 @@ function App() {
       <div className="divider">
         <img src={divider} alt="" />
       </div>
-      <button onClick={handleClick}>
+      <div className="button-container">
+       <button onClick={handleClick}>
         <img src={button} alt="" />
-      </button>
+      </button> 
+      </div>
+      
     </div>
   );
 }
